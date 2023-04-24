@@ -1,7 +1,7 @@
 import React from 'react';
-import img7 from './images/activity/7.png';
-import img9 from './images/activity/9.jpg';
-import img14 from './images/activity/14.jpg';
+import img7 from '../images/activity/7.png';
+import img9 from '../images/activity/9.jpg';
+import img14 from '../images/activity/14.jpg';
 
 function Sliider() {
   return (

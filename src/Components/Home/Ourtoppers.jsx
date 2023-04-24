@@ -5,13 +5,13 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { EffectCoverflow } from "swiper";
 
-import topper1 from './images/topper1.png';
-import topper2 from './images/topper2.jpeg';
-import topper3 from './images/topper3.jpeg';
-import topper4 from './images/topper4.jpg';
-import topper5 from './images/topper5.jpeg';
-import topper6 from './images/topper6.jpeg';
-import topper7 from './images/topper7.jpeg';
+import topper1 from '../images/topper1.png';
+import topper2 from '../images/topper2.jpeg';
+import topper3 from '../images/topper3.jpeg';
+import topper4 from '../images/topper4.jpg';
+import topper5 from '../images/topper5.jpeg';
+import topper6 from '../images/topper6.jpeg';
+import topper7 from '../images/topper7.jpeg';
 
 
 function Ourtoppers() {

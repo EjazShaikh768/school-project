@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from './images/logo00.png';
-import mathIcon from './images/math.gif';
-import vectorIcon from './images/vector.gif';
-import listIcon from './images/list.gif';
-import pillsIcon from './images/pills.gif';
-import databaseIcon from './images/database.gif';
-import PromoteIcon from './images/promote.gif';
+import logo from '../images/logo00.png';
+import mathIcon from '../images/math.gif';
+import vectorIcon from '../images/vector.gif';
+import listIcon from '../images/list.gif';
+import pillsIcon from '../images/pills.gif';
+import databaseIcon from '../images/database.gif';
+import PromoteIcon from '../images/promote.gif';
 
 function Homecards() {
   return (

@@ -1,6 +1,5 @@
 import React from 'react'
-import Header from './Header'
-import Footer from './Footer'
+import Footer from '../Footer'
 import Sliider from './Sliider'
 import Homeabout from './Homeabout'
 import Video_blog from './Video_blog'
@@ -10,7 +9,6 @@ import Ourtoppers from './Ourtoppers'
 function Home() {
   return (
     <div>
-      <Header />
       <Sliider />
       <Homeabout />
       <Video_blog />

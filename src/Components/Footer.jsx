@@ -1,10 +1,9 @@
 import React from 'react';
 import logo from './images/logo00.png';
-
+import {Link} from 'react-router-dom';
 function Footer() {
   return (
     <div>
-      
       
 
 <section id="footer">
@@ -17,30 +16,34 @@ function Footer() {
             <div class="col-sm-12 col-md-5 col-lg-5 pt-3 text-center footerLinks">
                 <h3> Links-</h3>
                <div class="row">
+                
                 <div class="col-6 text-start">
                 <ul>
-                    <li><a href="">SIGN IN</a></li>
-                    <li><a href="">Contact Us</a></li>
-                    <li><a href="">Achivement</a></li>
-                    <li><a href="">Gallery</a></li>
-                    <li><a href="">Activity</a></li>
+                    <li><Link className="nav-link" as={Link} to="/Signin">SIGN IN</Link></li>
+                    <li><Link className="nav-link" as={Link} to="/Contact">CONTACT</Link></li>
+                    <li><Link className="nav-link" as={Link} to="/Blogs">ACHIEVEMENT</Link></li>
+                    <li> <Link className="nav-link" as={Link} to="/Gallery">GALLERY</Link>  </li>
+                    <li> <Link className="nav-link" as={Link} to="/Activity">ACTIVITY</Link></li>
                 </ul>
                 </div>
                 <div class="col-6 text-start">
                 <ul>
-                    <li><a href="">School Managment</a></li>
-                    <li><a href="">Teaching Staff</a></li>
-                    <li><a href="">Non Teaching Staff</a></li>
-                    <li><a href="">OUR SCHOOL</a></li>
+                    <li><Link className="dropdown-item" as={Link} to="/Management">SCHOOL MANAGMENT</Link></li>
+                    <li><Link className="dropdown-item" as={Link} to="/NonStaff">NON TEACHING STAFF</Link></li>
+                    <li><Link className="dropdown-item" as={Link} to="/Inspiration">OUR INSPIRATION</Link></li>
+                    <li><Link className="dropdown-item" as={Link} to="/Staf">TEACHING STAFF</Link></li>
+                    <li><Link className="dropdown-item" as={Link} to="/About">OUR SCHOOL</Link></li>
                 </ul>
                 </div>
+                
+             
                </div>
             </div>
             <div class="col-sm-12 col-md-4 col-lg-4 text-center pt-3" >
                 <h5>RIO English Medium Convent <br /> School & Jr. College</h5>
                 <address>
-                    32 Colony Near High way <br />
-                    Bhusawal
+                <b>  Jasola <br />
+                  NEW DELHI</b>
                 </address>
                 <ul id="icons">
                     <li><a href=""  ><i class="fa-brands fa-square-facebook"></i></a></li>
@@ -56,7 +59,6 @@ function Footer() {
         </div>
     </div>
 </section>
-
 
     </div>
   )

@@ -1,9 +1,9 @@
 import React from 'react';
-import blogImg from './images/activity/16.jpg';
-import certificate from './images/certificate.png';
-import stamp from './images/stamp.png';
-import users from './images/users.png';
-import videochat from './images/videochat.png';
+import blogImg from '../images/activity/16.jpg';
+import certificate from '../images/certificate.png';
+import stamp from '../images/stamp.png';
+import users from '../images/users.png';
+import videochat from '../images/videochat.png';
 import { Player } from 'video-react';
 
 function Video_blog() {

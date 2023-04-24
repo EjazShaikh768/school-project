@@ -1,6 +1,6 @@
 import React from 'react';
-import persident from './images/persident.jpg';
-import principle from './images/principle.jpeg';
+import persident from '../images/persident.jpg';
+import principle from '..//images/principle.jpeg';
 
 function Homeabout() {
   return (
