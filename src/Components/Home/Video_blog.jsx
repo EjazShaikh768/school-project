@@ -38,9 +38,7 @@ function Video_blog() {
     <div className="container">
         <div className="row px-3 justify-content-center">
             <h2>Our Latest News</h2>
-            <div className="col-sm-12 col-md-8 col-lg-7 box animatedBox" data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
+            <div className="col-sm-12 col-md-8 col-lg-7 box animatedBox" data-aos="flip-left"  data-aos-easing="ease-out-cubic" data-aos-duration="3000">
                 <div className="row" >
                     <div className="col-sm-12 col-md-12 col-lg-6" data-aos="zoom-in">
                         <img src={blogImg} alt="" className="img-fluid" />
@@ -69,7 +67,7 @@ function Video_blog() {
             <div class="col-sm-12 col-md-3 col-lg-3 border-end ">
                 <div class="row">
                     <div class="col-sm-12 col-md-4 col-lg-4 ">
-                        <span><img src={certificate} alt="" class="img-fluid" srcset="" data-aos="fade-up" /></span>
+                        <span><img src={certificate} alt="" class="img-fluid" srcset="" data-aos="fade-up"  data-aos-easing="ease-out-cubic" data-aos-duration="2000" /></span>
                     </div>
                     <div class="col-sm-12 col-md-8 col-lg-8"> <h3>Most Trusted Institute</h3></div>
                 </div>
@@ -78,7 +76,7 @@ function Video_blog() {
             <div class="col-sm-12 col-md-3 col-lg-3 border-end">
                 <div class="row">
                     <div class="col-sm-12 col-md-4 col-lg-4">
-                        <span><img src={users} alt="" class="img-fluid" srcset="" data-aos="fade-down" /></span>
+                        <span><img src={users} alt="" class="img-fluid" srcset="" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-duration="2000" /></span>
                     </div>
                     <div class="col-sm-12 col-md-8 col-lg-8"> <h3>5000 +Students</h3></div>
                 </div>
@@ -87,7 +85,7 @@ function Video_blog() {
             <div class="col-sm-12 col-md-3 col-lg-3 border-end">
                 <div class="row">
                     <div class="col-sm-12 col-md-4 col-lg-4">
-                        <span><img src={stamp} alt="" class="img-fluid" srcset="" data-aos="fade-up" /> </span>
+                        <span><img src={stamp} alt="" class="img-fluid" srcset="" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="2000"/> </span>
                     </div>
                     <div class="col-sm-12 col-md-8 col-lg-8"> <h3>Well Qualified Teachers</h3></div>
                 </div>
@@ -96,7 +94,7 @@ function Video_blog() {
             <div class="col-sm-12 col-md-3 col-lg-3 ">
                 <div class="row">
                     <div class="col-sm-12 col-md-4 col-lg-4">
-                        <span><img src={videochat} alt="" class="img-fluid" srcset="" data-aos="fade-down" /></span>
+                        <span><img src={videochat} alt="" class="img-fluid" srcset="" data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-duration="2000"/></span>
                     </div>
                     <div class="col-sm-12 col-md-8 col-lg-8 swzxcgfvbh"> <h3>World Class Infrastructure</h3></div>
                 </div>

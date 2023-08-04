@@ -5,6 +5,7 @@ import Homeabout from './Homeabout'
 import Video_blog from './Video_blog'
 import Homecards from './Homecards'
 import Ourtoppers from './Ourtoppers'
+import Qa from './Qa'
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <Video_blog />
       <Homecards />
       <Ourtoppers />
+      <Qa />
       <Footer />
     </div>
   )

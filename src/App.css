@@ -21,7 +21,10 @@
         color: #f7f3f3;
         font-weight: 500;
     }
-
+    .navbar li ul li a:hover{
+        color: #000;
+        font-weight: 500;
+    }
     .navbar img {
         width: 140px;
         height: 150px;
@@ -748,3 +751,6 @@
      border-radius: 25px 25px 25px 25px;
      margin-bottom: 10px
    }
+
+
+   /* dashboard css code  */
